@@ -29,16 +29,16 @@ public class BuscarFrame extends javax.swing.JFrame {
     
     private void cargarDatos(String valor, int tipo) {
         lblPalabrasClave.setText("Buscó: " + valor);
-        ArrayList<?> datos = getDatos(valor, tipo);
+        /*ArrayList<?> datos = getDatos(valor, tipo);
         if (datos == null)
             return;
         DefaultTableModel model = new DefaultTableModel(getHeader(tipo), datos.size());
         for (Object dato : datos) {
             
-        }
+        }*/
     }
     
-    private ArrayList<?> getDatos(String valor, int tipo) {
+    /*private ArrayList<?> getDatos(String valor, int tipo) {
         switch (tipo) {
             case 0: return bdao.buscarLibros(valor);
             case 1: return bdao.buscarAutores(valor);
@@ -46,7 +46,7 @@ public class BuscarFrame extends javax.swing.JFrame {
             case 3: return bdao.buscarCategorias(valor);
             default: return null;
         }
-    }
+    }*/
     
     private String[] getHeader(int tipo) {
         switch (tipo) {

@@ -1,15 +1,15 @@
 package entidad;
 
 /**
- * 
+ *
  * @author Paulina Delgado
  */
-public class Categoria {
+public class Idioma {
     
     private int id;
     private String nombre;
 
-    public Categoria(int id, String nombre) {
+    public Idioma(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
     }
